@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class GitClass : MonoBehaviour
 {
-	string myName = "MertProject";
-	int myPower = 1000;
+    string myName = "MertProject";
+    int myPower = 1000;
     bool niceGuitar = false;
     int myLife = 10;
-  	//To display/hide the instruction message
-  	public GameObject textInstruction;
-	
+    //To display/hide the instruction message
+    public GameObject textInstruction;
+
+    int sum(int a, int b)
+    {
+        return a + b;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +45,10 @@ public class GitClass : MonoBehaviour
 		}
     		
 		print("And I will play for you the baguette.");
+
+        int result = sum(2, 3);
+
+        print("the sum of 2 and 3 is" + result);
 
         if (myLife < 1)
         {
