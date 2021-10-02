@@ -18,3 +18,6 @@ Just added an image file.
 
 Project Collaborators:
 - Mohammed Ockba
+
+Linus Torvalds invented Git. In case it gets too hard, this is the person to blame. 
+This is another line. I think I finally got it.
