@@ -8,6 +8,11 @@ public class GitClass : MonoBehaviour
 	int myPower = 1000;
     bool niceGuitar = false;
     int myLife = 10;
+
+    //Laras Variables
+    int procrastination = 69;
+    bool watchNetflix;
+
   	//To display/hide the instruction message
   	public GameObject textInstruction;
 	
@@ -44,6 +49,17 @@ public class GitClass : MonoBehaviour
         if (myLife < 1)
         {
             print("oof");
+        }
+
+        //Laras stuff
+        if (procrastination > 50)
+        {
+            watchNetflix = true; 
+        }
+
+        if (watchNetflix)
+        {
+            print("It's time to watch some netflix!");
         }
     }
 
